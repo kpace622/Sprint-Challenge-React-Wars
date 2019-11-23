@@ -26,13 +26,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a Javascript library that is used to build UIs. React combines HTML, CSS and Javascript to really simplify building UIs. One of the most useful things I have seen so far is state in React. Being able to manipulate objects based on their state has been immensely useful.
+
+
 - [ ] What does it mean to _think_ in react?
+
+React breaks down the building of UIs into very small, manageable steps. It makes it very easy to say “Ok, here is the nav bar and here is the main content of the page”.  I think of it like LESS but instead of just CSS it help break HTML, CSS, and Javascript into manageable chunks.
+
 
 - [ ] Describe state.
 
+State is an object that is built into every object in react. It is something that holds everything to do with specific React components. Whenever the state changes the component re-renders.
+
+
 - [ ] Describe props.
 
+React props are like function arguments. You pass them in and can access them somewhere else. This is really neat because you can even export/import and access them in completely separate files.
+
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are anything that happens when a component renders other than the actual value of the rendering itself. These can be manipulated by using useEffect().
+
 
 ## Project Set Up
 
